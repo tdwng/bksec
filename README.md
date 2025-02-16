@@ -14,6 +14,6 @@ Flag : Có trong file
 
 Flag : Chill nên ko show
 
-[Jslock ko chill](./Jslock_ko_chill(jslock2))
+[Jslock ko chill](./jslock_ko_chill(jslock2))
 
 Flag : Ko chill nên ko show

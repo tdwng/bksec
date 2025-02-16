@@ -12,6 +12,7 @@
 
 **Backup link** https://tdwng.github.io/trollvn/
 
+---
 ## Solve 
 
 **Trước hết, ta có thể xác định được file lock trong frontend như sau :**

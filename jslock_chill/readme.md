@@ -1,8 +1,7 @@
---
-JSLOCK
---
+# JSLOCK
 
-## INTRO 
+## INTRO
+
 **Thể Loại** : RE ( frontend web )
 
 **Câu hỏi** : Trong khi Spid3r đang đột nhập nhà của mấy anh em web thì thấy có cái "tường nước" dưới đây, dù chỉ là phía frontend nhưng với bản tính Rờ E trỗi dậy trong máu thì có lẽ đây là 1 thử thách không thể cuốn hút hơn.
@@ -13,9 +12,7 @@ JSLOCK
 
 **Backup link** https://tdwng.github.io/trollvn/
 
---
-Solve 
---
+## Solve 
 
 **Trước hết, ta có thể xác định được file lock trong frontend như sau :**
 

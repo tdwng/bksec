@@ -1,5 +1,5 @@
 # BABY OIL 1
-
+---
 ## Loại : RE
 
 ## Question : Để bước chân vào con đường làm Reverser chân chính bạn cần điều gì:
@@ -7,7 +7,7 @@
  2. **Lòng dũng cảm sử dụng file này trên máy thật của bạn**
 
 ## Link file : [baby_ida_1](chall.exe)
-
+---
 ### Decompile bằng ida ta có pseudo sau : 
 ```C++ pseudpseudo
 int __fastcall main(int argc, const char **argv, const char **envp)

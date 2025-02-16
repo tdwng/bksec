@@ -2,7 +2,7 @@
 15/02/2025
 ## ALL CHALLENGE SOLVED :
 ---
-| No | Challenge's Name | Link | Flag |
+| No | Challenge's Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Link &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Flag &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
 |:--:|:-------------------:|:----:|:----:|
 | 1  |    Baby IDA 1       |   [Baby IDA 1](./baby_ida_1)   |Có trong folder                                                                                                                                      |
 | 2  |    Baby IDA 1,5     | [Baby IDA 1.5](./baby_ida_1,5) |Có trong folder                                                                                                                                      |

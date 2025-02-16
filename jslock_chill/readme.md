@@ -1,5 +1,5 @@
-# JSLOCK
-
+# JSLOCK - JAVASCRIPT LOCK ( CHILL VERSION )
+---
 ## INTRO
 
 **Thể Loại** : RE ( frontend web )

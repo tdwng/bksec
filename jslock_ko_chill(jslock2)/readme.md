@@ -8,6 +8,8 @@
 
 ## Link : https://jslock2.bksec.vn
 
+## Link phụ : https://tdwng.github.io/jslock_ver_2/
+
 ## Backup data : [Jslock Không Chill](./jslock_khong_chill)
 ---
 ### I just say that u ... phải giải tay hệ sau nếu không biết script ( giống e ) :

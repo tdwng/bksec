@@ -10,4 +10,4 @@
 
 ![](kqua.png)
 
-Mã nguồn : [Baby IDA 1,5](./"Baby_IDA_1,5")
+Mã nguồn : [Baby IDA 1,5](./Baby_IDA_1,5)

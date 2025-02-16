@@ -10,3 +10,4 @@
 | 4  |  Javascript Lock 2  |   Finish   |[Jslock ko chill](./jslock_ko_chill(jslock2)) |Ko chill nên ko show|Easy/Hard Chall |                                ||
 | 5  |    Check-Key        |    Fail    |None                                          |None                |None            |None                            ||
 | 6  |     JAV-REV         |    Fail    |None                                          |None                |None            |None                            ||
+| 7  |     babyasm         |    Fail    |None                                          |None                |None            |None                            ||

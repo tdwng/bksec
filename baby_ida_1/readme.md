@@ -1,6 +1,14 @@
 # BABY OIL 1
 
-## Decompile bằng ida ta có pseudo sau : 
+## Loại : RE
+
+## Question : Để bước chân vào con đường làm Reverser chân chính bạn cần điều gì:
+ 1. **IDA Pro của Spid3r (Bản nào cũng đều chill cả nhé)**
+ 2. **Lòng dũng cảm sử dụng file này trên máy thật của bạn**
+
+## Link file : [baby_ida_1](chall.exe)
+
+### Decompile bằng ida ta có pseudo sau : 
 ```C++ pseudpseudo
 int __fastcall main(int argc, const char **argv, const char **envp)
 {
@@ -72,11 +80,11 @@ int __fastcall main(int argc, const char **argv, const char **envp)
     return 0;
 }
 ```
-Dễ dàng nhận thấy, **v13** và **v12** là 2 phần của flag, 1 phần chứa flag và một phần flag khác bị obfuscate. 
+### Dễ dàng nhận thấy, **v13** và **v12** là 2 phần của flag, 1 phần chứa flag và một phần flag khác bị obfuscate. 
 
 ![](pseudo.png)
 
-Xuống dưới đó một xíu, có thể thấy rõ yêu cầu nhhập2 key này. Ở input key 1, user nhập vào chuỗi **BKSEC{rev3r5e_r@t** chương trình sẽ hiển thị yêu cầu nhập key 2. Bên dưới đó có một đoạn code như sau : 
+### Xuống dưới đó một xíu, có thể thấy rõ yêu cầu nhhập2 key này. Ở input key 1, user nhập vào chuỗi **BKSEC{rev3r5e_r@t** chương trình sẽ hiển thị yêu cầu nhập key 2. Bên dưới đó có một đoạn code như sau : 
 ```C++ pseudo
 for ( i = 0; ; ++i )
         {
@@ -102,7 +110,7 @@ for ( i = 0; ; ++i )
 
         std::ostream::operator<<(v6, refptr__ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_);
 ```
-Có thể thấy rõ đây là đoạn code dùng để đảo kí tự của chuỗi, vd “efefd” sẽ thành “dfefe” khi đưa vào trong đoạn code trên. Vậy nên chúng ta chỉ cần đảo ngược các kí tự của chuỗi })12387642t234g789_UaD_t3h_@Uhc}eheh_n0ul_1Uv_Al_ và ghép nó với v13 sẽ được flag hoàn chỉnh :vv 
+### Có thể thấy rõ đây là đoạn code dùng để đảo kí tự của chuỗi, vd “efefd” sẽ thành “dfefe” khi đưa vào trong đoạn code trên. Vậy nên chúng ta chỉ cần đảo ngược các kí tự của chuỗi })12387642t234g789_UaD_t3h_@Uhc}eheh_n0ul_1Uv_Al_ và ghép nó với v13 sẽ được flag hoàn chỉnh :vv 
 
 Flag : 
 ```

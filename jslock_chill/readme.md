@@ -1,5 +1,7 @@
-# JSLOCK
----
+--
+JSLOCK
+--
+
 ## INTRO 
 **Thể Loại** : RE ( frontend web )
 
@@ -9,14 +11,16 @@
 
 **Đề phòng link sập, đã có backup file** : [Lock Chill](./Lock_chill)
 
-**Backup link** : https://tdwng.github.io/trollvn/
----
-## Solve 
+**Backup link** https://tdwng.github.io/trollvn/
 
-### Trước hết, ta có thể xác định được file lock trong frontend như sau :
+--
+Solve 
+--
+
+**Trước hết, ta có thể xác định được file lock trong frontend như sau :**
 
 ![](nen.png)
 
-### Sau đó, chỉ cần giải pt sao cho **decodedPassword** và **correctPassword** bằng nhau là dc. Kết quả sẽ ra được pwd là 35253, nhập vào và ta sẽ có flag như sau :
+**Sau đó, chỉ cần giải pt sao cho **decodedPassword** và **correctPassword** bằng nhau là dc. Kết quả sẽ ra được pwd là 35253, nhập vào và ta sẽ có flag như sau :**
 
 ![](flag.png)

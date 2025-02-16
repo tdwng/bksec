@@ -2,36 +2,53 @@
 
 ### Tôi chỉ muốn nói là... bro phải giải tay hệ sau :
 
-\[
-\begin{cases}
-p_0 \cdot p_1 - 2 \cdot p_2 = 43490 \\
-p_1 + 5 \cdot p_2 - 3 \cdot p_3 = 822 \\
-p_2 + p_3 \cdot p_4 - p_0 = 2243 \\
-p_5 + 2 \cdot p_4 + p_2 = 1105 \\
-20 \cdot p_1 - 2 \cdot p_2 - p_4 = 4652 \\
-p_2 + p_5 - 2 \cdot p_1 = 429 \\
-2 \cdot p_1 + p_2 + 3 \cdot p_6 + 4 \cdot p_7 = 1187 \\
-5 \cdot p_5 - p_7 - p_8 + 2 \cdot p_9 = 3901 \\
-3 \cdot p_8 + 2 \cdot p_9 + 4 \cdot p_{10} - 3 \cdot p_6 = 395 \\
-9 \cdot p_{11} + 2 \cdot p_{10} - p_8 = 1067 \\
-4 \cdot p_7 - p_8 + p_{10} = 622 \\
-p_3^{p_8} + 3 \cdot p_{11} - 2 \cdot p_7 + p_6 + p_5 + p_{10} = 457901
-\end{cases}
-\]
+```javascript
+const correctPassword = [43490, 822, 2243, 1105, 4652, 429, 1187, 3901, 395, 1067, 622, 457901];
+
+function checkPassword() {
+    const dials = document.querySelectorAll('.dial');
+    const enteredPassword = Array.from(dials).map(dial => Number(dial.value));
+    const decodedPassword = [
+        enteredPassword[0] * enteredPassword[1] - 2 * enteredPassword[2],
+        enteredPassword[1] + 5 * enteredPassword[2] - 3 * enteredPassword[3],
+        enteredPassword[2] + enteredPassword[3] * enteredPassword[4] - enteredPassword[0],
+        enteredPassword[5] + 2 * enteredPassword[4] + enteredPassword[2],
+        20 * enteredPassword[1] - 2 * enteredPassword[2] - enteredPassword[4],
+        enteredPassword[2] + enteredPassword[5] - 2 * enteredPassword[1],
+        2 * enteredPassword[1] + enteredPassword[2] + 3 * enteredPassword[6] + 4 * enteredPassword[7],
+        5 * enteredPassword[5] - enteredPassword[7] - enteredPassword[8] + 2 * enteredPassword[9],
+        3 * enteredPassword[8] + 2 * enteredPassword[9] + 4 * enteredPassword[10] - 3 * enteredPassword[6],
+        9 * enteredPassword[11] + 2 * enteredPassword[10] - enteredPassword[8],
+        4 * enteredPassword[7] - enteredPassword[8] + enteredPassword[10],
+        enteredPassword[3] ** enteredPassword[8] + 3 * enteredPassword[11] - 2 * enteredPassword[7] + enteredPassword[6] + enteredPassword[5] + enteredPassword[10],
+    ];
+    if (JSON.stringify(decodedPassword) === JSON.stringify(correctPassword))
+```
 
 Kết qa sẽ là : 
 
 p0 = 175
+
 p1 = 250
+
 p2 = 130
+
 p3 = 26
+
 p4 = 88
+
 p5 = 799
+
 p6 = 7
+
 p7 = 134
+
 p8 = 4
+
 p9 = 22
+
 p10 = 90
+
 p11 = 99
 
 ### Và bro sẽ đ thể chill nổi sau 1 tiếng đồng hồ ngồi giải toán cấp 3...

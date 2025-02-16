@@ -1,6 +1,6 @@
 # JSLOCK 2
 
-### Tôi chỉ muốn nói là... bro phải giải tay hệ sau :
+### I just say that u ... phải giải tay hệ sau nếu không biết script ( giống e ) :
 
 ```javascript
 const correctPassword = [43490, 822, 2243, 1105, 4652, 429, 1187, 3901, 395, 1067, 622, 457901];
@@ -51,4 +51,4 @@ p10 = 90
 
 p11 = 99
 
-### Và bro sẽ đ thể chill nổi sau 1 tiếng đồng hồ ngồi giải toán cấp 3...
+### Và e đã k thể chill nổi sau 1 tiếng đồng hồ ngồi giải toán cấp 3...

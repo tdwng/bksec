@@ -1,5 +1,15 @@
 # JSLOCK 2
+---
+## Thể loại : RE 
 
+## Câu hỏi : Sau khi cạy khóa xong "jslock1" thì lúc này có lẽ mấy anh em web đã tức điên lên và thay một ổ khóa khác xịn hơn, có lẽ lúc này thì Spid3r phải sử dụng đến 1 tools vô cùng mạnh mẽ của anh em nhà "ngược": Z3 
+
+## Note : Trong bài không dùng z3 vì vấn đề hỗ trợ phần mềm.
+
+## Link : https://jslock2.bksec.vn
+
+## Backup data : [Jslock Không Chill](./jslock_khong_chill)
+---
 ### I just say that u ... phải giải tay hệ sau nếu không biết script ( giống e ) :
 
 ```javascript

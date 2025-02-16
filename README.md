@@ -2,8 +2,8 @@
 15/02/2025
 ## ALL CHALLENGE SOLVED :
 ---
-|Number|Name Challenge|Link|Flag|
-|:-|-------------------|----|----:|
+| No | Challenge's Name | Link | Flag |
+|:-:|:-------------------:|:----:|:----:|
 |1|Baby IDA 1  |[Baby IDA 1](./baby_ida_1)|Có trong folder|
 |2|Baby IDA 1,5|[Baby IDA 1.5](./baby_ida_1,5)|Có trong folder|
 |3|Javascript Lock 1|[Jslock chill](./jslock_chill)|Có trong folder|
